@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GreenBottle – Gourdes éco-responsables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>GreenBottle</h1>
+    <p><strong>Hydrate-toi. Respecte la planète.</strong></p>
+
+    <hr>
+
+    <h2>Notre mission</h2>
+    <p>
+        GreenBottle propose des gourdes d’eau réutilisables et éco-responsables
+        pour réduire l’utilisation du plastique et protéger l’environnement.
+    </p>
+
+    <h2>Pourquoi choisir nos gourdes ?</h2>
+    <ul>
+        <li>♻️ Matériaux durables et recyclables</li>
+        <li>🚫 Zéro plastique à usage unique</li>
+        <li>🌍 Fabrication respectueuse de l’environnement</li>
+        <li>💧 Conservation optimale de l’eau</li>
+    </ul>
+
+    <h2>Nos produits</h2>
+
+    <div class="products-container">
+        <div class="product-card">
+            <h3>Gourde Inox 750ml</h3>
+            <p>Une gourde robuste, légère et idéale pour le sport ou le quotidien.</p>
+            <p class="price">Prix : <strong>29,99 €</strong></p>
+            <button class="add-to-cart" data-product="Gourde Inox 750ml" data-price="29.99">Ajouter au panier</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Gourde Bambou 500ml</h3>
+            <p>Design naturel avec revêtement en bambou pour une touche élégante et responsable.</p>
+            <p class="price">Prix : <strong>24,99 €</strong></p>
+            <button class="add-to-cart" data-product="Gourde Bambou 500ml" data-price="24.99">Ajouter au panier</button>
+        </div>
+    </div>
+
+    <div class="cart-section">
+        <button id="toggle-cart" class="toggle-cart-btn">🛒 Voir le panier (<span id="cart-count">0</span>)</button>
+        <div id="cart-modal" class="cart-modal hidden">
+            <div class="cart-content">
+                <h3>Votre panier</h3>
+                <ul id="cart-items"></ul>
+                <div class="cart-footer">
+                    <p>Total : <strong id="cart-total">0,00 €</strong></p>
+                    <button id="checkout-btn" class="checkout-btn">Valider la commande</button>
+                    <button id="clear-cart" class="clear-cart-btn">Vider le panier</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Engagement écologique</h2>
+    <p>
+        Pour chaque gourde vendue, nous participons à des actions de réduction
+        des déchets plastiques et de protection des ressources naturelles.
+    </p>
+
+    <hr>
+
+    <h2>Contact</h2>
+    <p>
+        Email : contact@greenbottle.fr  
+        <br>
+        Instagram : @greenbottle
+    </p>
+
+    <p>
+        © 2026 GreenBottle – Tous droits réservés
+    </p>
+
+    <script src="script.js"></script>
+</body>
+</html>
